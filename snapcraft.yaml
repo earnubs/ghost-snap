@@ -1,0 +1,12 @@
+name: ghost
+version: 0.0.1
+# The vendor for the snap (replace 'Vendor <email@example.com>')
+vendor: Stephen Stewart <stephen.stewart@canonical.com>
+summary: Just a blogging platform https://ghost.org
+description: Ghost is a simple, powerful publishing platform that allows you to share your stories with the world.
+icon: ./icon.png
+parts:
+  ghost:
+    plugin: nodejs
+    node-packages:
+      - ghost
